@@ -1,0 +1,41 @@
+h1 {
+    font-weight: bold;
+}
+footer {
+    font-size: 10px;
+    background-color: white;
+}
+.articleItem div {
+    border: solid;
+    border-width: 1px;
+}
+.articleItem a {
+  color: black;
+}
+.articleItem a:hover, .articleItem a:active {
+  color: Gray;
+}
+.content {
+    text-align: center;
+}
+.errbtn {
+    font-size: 30px;
+    background-color: white;
+    border: solid;
+    border-width: 1px;
+}
+.margin {
+    margin: 25px 0 0 0;
+}
+.navbar {
+    margin: 10px;
+}
+.sub {
+    text-decoration: none;
+    font-weight: italic;
+    color: gray;
+}
+#clock {
+    font-style: italic;
+    font-size: 20px;
+}
