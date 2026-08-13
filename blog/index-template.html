@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Bootstrap 5.3.8 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+        <title>The CCCCGBCC Blog</title>
+        <link href="/style.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="/time.js"></script>
+    </head>
+    <body class="d-flex flex-column min-vh-100">
+        <!-- Navbar -->
+        <div class="navbar navbar-expand-lg sticky-top navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/"><b>CCCCGBCC</b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nav">
+                    <ul class="navbar-nav">
+                        <li class="navbar-item"><a href="/" class="nav-link">Home</a></li>
+                        <li class="navbar-item"><a href="/blog" class="nav-link active">Blogs</a></li>
+                        <li class="navbar-item"><a href="/slimjim" class="nav-link">Slim Jim</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- Main Page -->
+         <div class="container content flex-grow-1">
+            <div class="row">
+                <div class="col-sm-6 col-12 margin">
+                    <h1>The CCCCGBCC Blog</h1>
+                    <p class="margin">Hot from the presses, here are our latest blog posts from the admin of <a href="https://ccccgbcc.com">CCCCGBCC.com</a>.</p>
+                </div>
+                <div class="col-sm-6 col-12 margin">
+                    <h1>Time Left Until Camp (<i>NOT VERIFIED</i>)</h1>
+                    <p id="clock">Loading timer (REMEMBER THAT THIS DATE IS NOT VERIFIED YET!)...</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                {articles_html}
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="container-fluid">
+            <hr>
+            <div class="row">
+                <div class="col-12 content">
+                    <p>Copyright 2026 by the CCCCGBCC.com website. This website is licensed under the <a href="/LICENSE">MIT License</a>. This project utilizes <a href="https://getbootstrap.com/docs/5.3/">Bootstrap 5</a> and its documentation, which is available under the <a href="https://github.com/twbs/bootstrap/blob/main/LICENSE">MIT License</a>.</p>
+                    <p>Content on this page alongside any of the blogs can contain satire or exaggerated thoughts. Please take the content in these pages lightly.</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
