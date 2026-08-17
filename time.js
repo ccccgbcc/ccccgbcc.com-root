@@ -1,4 +1,4 @@
-// Created with Google Gemini because I don't know JavaScript
+// Created with Google Gemini because I don't know JavaScript but edited using the Bootstrap 5 documentation
 
 // Set the target date and time
 const targetDate = new Date("July 26, 2027 15:00:00").getTime();
@@ -22,8 +22,8 @@ const countdownInterval = setInterval(function() {
   const timeElement = document.getElementById("clock");
 
   if (timeElement) {
-    // Display the result inside the element
-    timeElement.innerHTML = `<b>${days} days,<br>${hours} hours,<br>${minutes} minutes,<br>and ${seconds} seconds</b>`;
+    // Display the result inside the element (Button from Bootstrap Documentation)
+    timeElement.innerHTML = `<b>${days} days,<br>${hours} hours,<br>${minutes} minutes,<br>and ${seconds} seconds</b><br><button type="button" class="btn btn-light mybtn margin" data-bs-toggle="modal" data-bs-target="#notVerified">NOT VERIFIED DATE</button>`;
       
     // If the countdown is finished, write some text
     if (distance < 0) {

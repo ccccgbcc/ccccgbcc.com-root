@@ -13,12 +13,12 @@ footer {
     color: black;
 }
 .articleItem a:hover, .articleItem a:active {
-    color: Gray;
+    color: gray;
 }
 .content {
     text-align: center;
 }
-.errbtn {
+.mybtn {
     font-size: 30px;
     background-color: white;
     border: solid;
