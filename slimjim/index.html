@@ -10,39 +10,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="/time.js"></script>
         <script src="/dateModal.js"></script>
+        <script src="/assets/parts/add.js"></script>
     </head>
     <body class="d-flex flex-column min-vh-100">
-        <!-- Navbar -->
-        <div class="navbar navbar-expand-lg sticky-top navbar-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/"><b>CCCCGBCC</b></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="nav">
-                    <ul class="navbar-nav">
-                        <li class="navbar-item"><a href="/" class="nav-link">Home</a></li>
-                        <li class="navbar-item"><a href="/blog" class="nav-link">Blogs</a></li>
-                        <li class="navbar-item"><a href="/slimjim" class="nav-link active">Slim Jim</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <!-- Modal (from Bootstrap Documentation - https://getbootstrap.com/docs/5.3/components/modal) -->
-        <div class="modal fade" id="notVerified" style="text-align: center;">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5">Date Not Verified</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>The date and time on the timer is currently set to July 26, 2027 at 3:00 PM. I have not been able to verify if Summer Retreat 2027 will take place on July 26-30. The timer will be changed when the information is verified. Sorry for any inconvenience that this may cause.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div id="navExt"></div>
+        <div id="dateModalExt"></div>
         <!-- Main Page -->
          <div class="container content flex-grow-1">
             <div class="row">
